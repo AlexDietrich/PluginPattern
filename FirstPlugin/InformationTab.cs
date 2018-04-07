@@ -11,9 +11,9 @@ namespace FirstPlugin
         private readonly BusinessLayer _businessLayer = new BusinessLayer();
 
         public string CustomerName { get; private set; } = "";
-        public DateTime? ArriveDate { get; private set; } = null;
-        public DateTime? LeaveDate { get; private set; } = null;
-        public float InvoiceAmount { get; private set; } = 0;
+        public DateTime? ArriveDate { get; private set; }
+        public DateTime? LeaveDate { get; private set; }
+        public float InvoiceAmount { get; private set; }
 
         public InformationTab(string path)
         {
