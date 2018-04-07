@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{754981C0-9059-4C39-A6BC-BEC19C6853C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{FBF84793-9D18-4805-812F-96074E9C623C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstPlugin", "FirstPlugin\FirstPlugin.csproj", "{0E67435D-255B-40A6-AFE3-91B02F933B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754981C0-9059-4C39-A6BC-BEC19C6853C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754981C0-9059-4C39-A6BC-BEC19C6853C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754981C0-9059-4C39-A6BC-BEC19C6853C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754981C0-9059-4C39-A6BC-BEC19C6853C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF84793-9D18-4805-812F-96074E9C623C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF84793-9D18-4805-812F-96074E9C623C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF84793-9D18-4805-812F-96074E9C623C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF84793-9D18-4805-812F-96074E9C623C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E67435D-255B-40A6-AFE3-91B02F933B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E67435D-255B-40A6-AFE3-91B02F933B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E67435D-255B-40A6-AFE3-91B02F933B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E67435D-255B-40A6-AFE3-91B02F933B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB31D9F1-5A83-45A3-B462-F778D05E5CAD}
+	EndGlobalSection
+EndGlobal
