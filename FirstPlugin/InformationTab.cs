@@ -36,7 +36,7 @@ namespace FirstPlugin
                 UpdateCustomerFile(path);
 
             }
-            catch (InvalidDataException e)
+            catch (Exception e)
             {
                 Console.WriteLine("Exception was thrown: " + e.Message);
             }

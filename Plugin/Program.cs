@@ -29,6 +29,8 @@ namespace Plugin
             //Switch to Plugin with the data
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine("Switch to Plugin: ");
+
+
             //set the parameter for the costumer you want. In my version there is just one customer - normally you have the file-path in a Database.
             firstPlugin.SetParameter("customer.xml");
 
